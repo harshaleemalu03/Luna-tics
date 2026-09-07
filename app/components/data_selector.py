@@ -14,8 +14,27 @@ from src.io.pds4 import PDS4Parser
 from src.io.geotiff import GeoTIFFHandler
 
 
+def _ensure_sample_datasets():
+    """Ensure sample datasets exist (auto-generates if running on fresh Streamlit Cloud deployment)."""
+    required = [
+        "data/reference/lro_wac_mosaic_tile.tif",
+        "data/raw/chandrayaan2_iirs/ch2_iirs_calibrated_cube.tif",
+        "data/raw/chandrayaan2_tmc2/ch2_tmc2_optical_strip.tif",
+        "data/raw/chandrayaan2_ohrc/ch2_ohrc_hires_strip.tif",
+        "data/synthetic/synthetic_source_crater_grid.tif"
+    ]
+    if not all(os.path.exists(f) for f in required):
+        try:
+            from scripts.generate_sample_data import setup_all_datasets
+            setup_all_datasets()
+        except Exception:
+            pass
+
+
 def load_dataset(dataset_key: str) -> Tuple[np.ndarray, np.ndarray, LunarMetadata, LunarMetadata]:
     """Load selected dataset pair and associated PDS4/GeoTIFF metadata."""
+    _ensure_sample_datasets()
+
     if dataset_key == "Chandrayaan-2 IIRS ↔ LRO WAC (Hyperspectral SWIR)":
         src_tif = "data/raw/chandrayaan2_iirs/ch2_iirs_calibrated_cube.tif"
         src_xml = "data/raw/chandrayaan2_iirs/ch2_iirs_calibrated_cube.xml"
