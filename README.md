@@ -1,8 +1,6 @@
 ﻿# Luna-tics
 
 ### Physics-guided, confidence-driven lunar image registration.
-**Smart India Hackathon 2026 — Problem Statement 26166**  
-*“Multi-modal, Sun angle and scale invariant image correspondence using Chandrayaan-2 optical images (OHRC, TMC and IIRS)”*
 
 ---
 
@@ -221,5 +219,3 @@ In strict adherence to planetary remote sensing standards:
 
 - **Team Name:** Luna-tics
 - **Solution Name:** Luna-tics
-- **Tagline:** Physics-guided, confidence-driven lunar image registration.
-- **Hackathon:** Smart India Hackathon 2026 (PS 26166)
