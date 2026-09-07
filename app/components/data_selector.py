@@ -30,12 +30,40 @@ def _ensure_sample_datasets():
         except Exception:
             pass
 
+    # Ensure real Moon dataset exists
+    real_moon_path = "data/reference/real_lro_nac_epigenes_crater.tif"
+    if not os.path.exists(real_moon_path):
+        try:
+            from scripts.download_real_lunar_data import download_and_setup_real_moon_data
+            download_and_setup_real_moon_data()
+        except Exception:
+            pass
+
 
 def load_dataset(dataset_key: str) -> Tuple[np.ndarray, np.ndarray, LunarMetadata, LunarMetadata]:
     """Load selected dataset pair and associated PDS4/GeoTIFF metadata."""
     _ensure_sample_datasets()
 
-    if dataset_key == "Chandrayaan-2 IIRS ↔ LRO WAC (Hyperspectral SWIR)":
+    if "REAL Moon Imagery" in dataset_key or "PIA12918" in dataset_key:
+        src_tif = "data/raw/real_moon_lro_nac/ch2_real_moon_observation.tif"
+        src_xml = "data/raw/real_moon_lro_nac/ch2_real_moon_observation.xml"
+        ref_tif = "data/reference/real_lro_nac_epigenes_crater.tif"
+
+        img_src = tifffile.imread(src_tif)
+        img_ref = tifffile.imread(ref_tif)
+        meta_src = PDS4Parser.parse_label(src_xml)
+        meta_ref = LunarMetadata(
+            sensor="LRO_NAC",
+            instrument_host="LRO",
+            image_dimensions=(img_ref.shape[0], img_ref.shape[1]),
+            bands=1,
+            gsd=0.50,
+            file_path=ref_tif,
+            data_source_type="REAL"
+        )
+        return img_src, img_ref, meta_src, meta_ref
+
+    elif dataset_key == "Chandrayaan-2 IIRS ↔ LRO WAC (Hyperspectral SWIR)":
         src_tif = "data/raw/chandrayaan2_iirs/ch2_iirs_calibrated_cube.tif"
         src_xml = "data/raw/chandrayaan2_iirs/ch2_iirs_calibrated_cube.xml"
         ref_tif = "data/reference/lro_wac_mosaic_tile.tif"

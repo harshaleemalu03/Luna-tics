@@ -1,4 +1,4 @@
-﻿"""
+"""
 Luna-tics: Scientific Planetary Remote Sensing Registration Workstation
 SIH 2026 — PS 26166
 “Multi-modal, Sun angle and scale invariant image correspondence using Chandrayaan-2 optical images (OHRC, TMC and IIRS)”
@@ -52,6 +52,7 @@ with st.sidebar:
     dataset_choice = st.selectbox(
         "Select Lunar Data Pair",
         [
+            "REAL Moon Imagery: NASA LROC NAC (Epigenes A Crater, PIA12918)",
             "Chandrayaan-2 IIRS ↔ LRO WAC (Hyperspectral SWIR)",
             "Chandrayaan-2 TMC-2 ↔ LRO WAC (Stereo Optical)",
             "Chandrayaan-2 OHRC ↔ LRO NAC (High-Resolution 0.25m)",
