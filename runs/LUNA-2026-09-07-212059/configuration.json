@@ -1,0 +1,16 @@
+{
+  "disable_illumination": false,
+  "disable_scale": false,
+  "disable_terrain": false,
+  "disable_gcp_opt": false,
+  "disable_learned_rescue": false,
+  "max_features": 2500,
+  "ratio_threshold": 0.82,
+  "confidence_threshold": 0.64,
+  "model_type": "homography",
+  "ransac_threshold_px": 7.0,
+  "grid_rows": 6,
+  "grid_cols": 6,
+  "target_gcps": 25,
+  "subpixel_refinement_enabled": true
+}

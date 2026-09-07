@@ -1,0 +1,55 @@
+{
+  "source": {
+    "sensor": "IIRS",
+    "instrument_host": "Chandrayaan-2",
+    "image_dimensions": [
+      400,
+      400
+    ],
+    "bands": 1,
+    "gsd": 80.0,
+    "acquisition_time": "2024-03-15T08:30:00.000Z",
+    "wavelength_min_um": null,
+    "wavelength_max_um": null,
+    "sun_azimuth_deg": 120.0,
+    "sun_elevation_deg": 45.0,
+    "incidence_angle_deg": 45.0,
+    "emission_angle_deg": 5.0,
+    "phase_angle_deg": 48.0,
+    "footprint_bbox": [
+      18.5,
+      -5.2,
+      19.8,
+      -4.0
+    ],
+    "crs_info": null,
+    "file_path": "data/synthetic/synthetic_source_crater_grid.xml",
+    "data_source_type": "DEMO / SYNTHETIC",
+    "spectral_reduction_method": null,
+    "fallback_flags": {}
+  },
+  "reference": {
+    "sensor": "Synthetic_Reference",
+    "instrument_host": "Synthetic",
+    "image_dimensions": [
+      400,
+      400
+    ],
+    "bands": 1,
+    "gsd": 80.0,
+    "acquisition_time": null,
+    "wavelength_min_um": null,
+    "wavelength_max_um": null,
+    "sun_azimuth_deg": null,
+    "sun_elevation_deg": null,
+    "incidence_angle_deg": null,
+    "emission_angle_deg": null,
+    "phase_angle_deg": null,
+    "footprint_bbox": null,
+    "crs_info": null,
+    "file_path": "data/synthetic/synthetic_reference_crater_grid.tif",
+    "data_source_type": "DEMO / SYNTHETIC",
+    "spectral_reduction_method": null,
+    "fallback_flags": {}
+  }
+}

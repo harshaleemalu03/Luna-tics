@@ -1,0 +1,17 @@
+{
+  "rmse_px": 0.97,
+  "median_error_px": 0.282,
+  "p95_error_px": 1.477,
+  "total_features_detected": 1132,
+  "candidate_matches_count": 272,
+  "confidence_verified_count": 259,
+  "inlier_count": 258,
+  "inlier_ratio_pct": 94.85,
+  "final_gcp_count": 25,
+  "spatial_coverage_pct": 31.37,
+  "spatial_uniformity_index": 0.636,
+  "runtime_seconds": 0.68,
+  "scale_estimate": 1.0,
+  "learned_rescue_used": true,
+  "status": "SUCCESS"
+}
