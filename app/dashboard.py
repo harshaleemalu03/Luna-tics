@@ -253,16 +253,16 @@ with tab2:
     st.markdown("#### Comparative Architectural Benchmark")
     st.caption("Multi-model performance comparison on lunar surface terrain across state-of-the-art architectures.")
     comp_df = pd.DataFrame([
-        {"Metric": "Candidate matches", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "2,846"},
-        {"Metric": "RANSAC inliers", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "2,680"},
-        {"Metric": "Inlier ratio", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "94.18%"},
-        {"Metric": "Reprojection RMSE (px)", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "2.15 px (0.18 px TMC-2)"},
-        {"Metric": "Median reprojection error", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "0.82 px (0.08 px TMC-2)"},
-        {"Metric": "Max reprojection error", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "3.85 px"},
-        {"Metric": "Uniformity score", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "0.91"},
-        {"Metric": "Spatial coverage", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "88.6%"},
-        {"Metric": "Runtime", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "114.3 ms"},
-        {"Metric": "Registered-image quality", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Luna-tics (Ours)": "0.94 SSIM"}
+        {"Metric": "Candidate matches", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "2,846"},
+        {"Metric": "RANSAC inliers", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "2,680"},
+        {"Metric": "Inlier ratio", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "94.18%"},
+        {"Metric": "Reprojection RMSE (px)", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "2.15 px (0.18 px TMC-2)"},
+        {"Metric": "Median reprojection error", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "0.82 px (0.08 px TMC-2)"},
+        {"Metric": "Max reprojection error", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "3.85 px"},
+        {"Metric": "Uniformity score", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "0.91"},
+        {"Metric": "Spatial coverage", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "88.6%"},
+        {"Metric": "Runtime", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "114.3 ms"},
+        {"Metric": "Registered-image quality", "PWIFT": "—", "EfficientLoFTR": "—", "RoMa v2": "—", "SuperGlue": "—", "Physics-Guided Fusion": "0.94 SSIM"}
     ])
     st.table(comp_df)
 
