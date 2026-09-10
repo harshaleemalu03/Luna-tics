@@ -1,0 +1,26 @@
+========================================================================================================================
+                                      STERELUNAR TEST SET BENCHMARK RESULTS
+========================================================================================================================
+
+TABLE 1: GENUINE STEREO REGISTRATION (Essential Matrix: 6-DoF R + t, Epipolar Geometry, Baseline >= 1.0m)
+Method           | Pairs | AUC@5  | AUC@10 | AUC@20 | Pose Succ@5° | Pose Succ@10° | Pose Succ@20° | Mean R_err | Mean t_err
+------------------------------------------------------------------------------------------------------------------------
+Base_Pretrained  | 3120  | 47.17  | 60.49  | 69.46  | 68.59%       | 76.41%        | 79.20%        | inf°       | inf°
+FineTuned_Full   | 3120  | 42.48  | 57.81  | 69.22  | 65.93%       | 77.72%        | 82.56%        | inf°       | inf°
+Luna_tics_Fusion | 3120  | 46.85  | 61.12  | 72.40  | 68.14%       | 79.85%        | 85.13%        | inf°       | inf°
+
+
+TABLE 2: ZERO-BASELINE REGISTRATION (Homography: 3-DoF Pure Rotation R, Translation t = 0, Baseline < 1.0m)
+Method           | Pairs | AUC@5  | AUC@10 | AUC@20 | Rot Succ@1°  | Rot Succ@3°   | Rot Succ@5°   | Mean R_err | Med R_err
+------------------------------------------------------------------------------------------------------------------------
+Base_Pretrained  | 6066  | 52.69  | 57.21  | 61.51  | 49.36%       | 57.07%        | 59.59%        | 21.86°     | 1.07°
+FineTuned_Full   | 6066  | 96.37  | 98.14  | 99.02  | 99.46%       | 99.88%        | 99.88%        | 0.29°      | 0.14°
+Luna_tics_Fusion | 6066  | 98.42  | 99.25  | 99.71  | 99.82%       | 99.98%        | 100.00%       | 0.18°      | 0.08°
+
+
+TABLE 3: DENSE 3D SURFACE CORRESPONDENCE & EFFICIENCY (Global Over All Valid Correspondences)
+Method           | MMA@1   | MMA@3   | MMA@5   | MMA@10  | RMSE(px) | Precision@5 | #Matches | Runtime  | Throughput | Peak VRAM
+------------------------------------------------------------------------------------------------------------------------
+Base_Pretrained  | 34.67%  | 49.42%  | 56.18%  | 61.23%  | 51.74    | 56.04%      | 1176.9   | 133.0 ms | 7.5 fps    | 0.91 GB
+FineTuned_Full   | 32.71%  | 63.53%  | 88.98%  | 97.88%  | 9.38     | 88.62%      | 3216.9   | 129.7 ms | 7.7 fps    | 0.91 GB
+Luna_tics_Fusion | 44.82%  | 78.65%  | 94.18%  | 98.92%  | 2.15     | 94.02%      | 2845.6   | 114.3 ms | 8.75 fps   | 0.42 GB
