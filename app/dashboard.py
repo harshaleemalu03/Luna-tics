@@ -72,12 +72,17 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("### 📋 Sensor Metadata")
+    src_az = f"{meta_src.sun_azimuth_deg:.1f}°" if meta_src.sun_azimuth_deg is not None else "N/A"
+    src_inc = f"{meta_src.incidence_angle_deg:.1f}°" if meta_src.incidence_angle_deg is not None else "N/A"
+    ref_az = f"{meta_ref.sun_azimuth_deg:.1f}°" if meta_ref.sun_azimuth_deg is not None else "N/A"
+    ref_inc = f"{meta_ref.incidence_angle_deg:.1f}°" if meta_ref.incidence_angle_deg is not None else "N/A"
+
     st.markdown(f"**Source:** `{meta_src.sensor}` ({meta_src.instrument_host})  \n"
                 f"**Resolution:** `{img_src_raw.shape[1]} × {img_src_raw.shape[0]} px`  \n"
-                f"**Sun Azimuth:** `{meta_src.sun_azimuth_deg:.1f}°` | **Incidence:** `{meta_src.incidence_angle_deg:.1f}°`")
+                f"**Sun Azimuth:** `{src_az}` | **Incidence:** `{src_inc}`")
     st.markdown(f"**Reference:** `{meta_ref.sensor}` ({meta_ref.instrument_host})  \n"
                 f"**Resolution:** `{img_ref_raw.shape[1]} × {img_ref_raw.shape[0]} px`  \n"
-                f"**Sun Azimuth:** `{meta_ref.sun_azimuth_deg:.1f}°` | **Incidence:** `{meta_ref.incidence_angle_deg:.1f}°`")
+                f"**Sun Azimuth:** `{ref_az}` | **Incidence:** `{ref_inc}`")
 
 
 # Execute Registration if Clicked or on First Load

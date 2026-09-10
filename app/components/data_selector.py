@@ -1,4 +1,4 @@
-﻿"""
+"""
 Luna-tics: Dataset Ingestion Component for Real Lunar Imagery
 """
 
@@ -85,6 +85,11 @@ def load_dataset(dataset_key: str) -> Tuple[np.ndarray, np.ndarray, LunarMetadat
             image_dimensions=(img_ref.shape[0], img_ref.shape[1]),
             bands=1,
             gsd=10.0,
+            incidence_angle_deg=52.0,
+            emission_angle_deg=2.0,
+            phase_angle_deg=54.0,
+            sun_azimuth_deg=145.0,
+            sun_elevation_deg=38.0,
             file_path=ref_tif,
             data_source_type="REAL"
         )
@@ -105,6 +110,11 @@ def load_dataset(dataset_key: str) -> Tuple[np.ndarray, np.ndarray, LunarMetadat
             image_dimensions=(img_ref.shape[0], img_ref.shape[1]),
             bands=1,
             gsd=0.50,
+            incidence_angle_deg=68.5,
+            emission_angle_deg=1.2,
+            phase_angle_deg=69.0,
+            sun_azimuth_deg=82.0,
+            sun_elevation_deg=21.5,
             file_path=ref_tif,
             data_source_type="REAL"
         )
