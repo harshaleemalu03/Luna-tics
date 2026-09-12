@@ -1,0 +1,366 @@
+{
+  "scene": "Scene_03_Apollo14_Fra_Mauro_Highlands_2020",
+  "total_tiepoints": 40,
+  "tiepoints": [
+    {
+      "tiepoint_id": 1,
+      "latitude": -23.76274,
+      "longitude": 342.567921,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1093.21
+    },
+    {
+      "tiepoint_id": 2,
+      "latitude": -23.762726,
+      "longitude": 342.437725,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1093.21
+    },
+    {
+      "tiepoint_id": 3,
+      "latitude": -23.762606,
+      "longitude": 342.307643,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1093.21
+    },
+    {
+      "tiepoint_id": 4,
+      "latitude": -23.76238,
+      "longitude": 342.177643,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1093.2
+    },
+    {
+      "tiepoint_id": 5,
+      "latitude": -23.76205,
+      "longitude": 342.047692,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1093.18
+    },
+    {
+      "tiepoint_id": 6,
+      "latitude": -23.761624,
+      "longitude": 341.920355,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1093.17
+    },
+    {
+      "tiepoint_id": 7,
+      "latitude": -23.625852,
+      "longitude": 342.56741,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1087.8
+    },
+    {
+      "tiepoint_id": 8,
+      "latitude": -23.625835,
+      "longitude": 342.437398,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1087.79
+    },
+    {
+      "tiepoint_id": 9,
+      "latitude": -23.625714,
+      "longitude": 342.307501,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1087.79
+    },
+    {
+      "tiepoint_id": 10,
+      "latitude": -23.625489,
+      "longitude": 342.177686,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1087.78
+    },
+    {
+      "tiepoint_id": 11,
+      "latitude": -23.625159,
+      "longitude": 342.047919,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1087.77
+    },
+    {
+      "tiepoint_id": 12,
+      "latitude": -23.624734,
+      "longitude": 341.920763,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1087.75
+    },
+    {
+      "tiepoint_id": 13,
+      "latitude": -23.488961,
+      "longitude": 342.566899,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1082.38
+    },
+    {
+      "tiepoint_id": 14,
+      "latitude": -23.488943,
+      "longitude": 342.437071,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1082.38
+    },
+    {
+      "tiepoint_id": 15,
+      "latitude": -23.488822,
+      "longitude": 342.307357,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1082.37
+    },
+    {
+      "tiepoint_id": 16,
+      "latitude": -23.488596,
+      "longitude": 342.177725,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1082.36
+    },
+    {
+      "tiepoint_id": 17,
+      "latitude": -23.488266,
+      "longitude": 342.048141,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1082.35
+    },
+    {
+      "tiepoint_id": 18,
+      "latitude": -23.487843,
+      "longitude": 341.921164,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1082.33
+    },
+    {
+      "tiepoint_id": 19,
+      "latitude": -23.352065,
+      "longitude": 342.566387,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1076.96
+    },
+    {
+      "tiepoint_id": 20,
+      "latitude": -23.352046,
+      "longitude": 342.436741,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1076.96
+    },
+    {
+      "tiepoint_id": 21,
+      "latitude": -23.351923,
+      "longitude": 342.307209,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1076.96
+    },
+    {
+      "tiepoint_id": 22,
+      "latitude": -23.351698,
+      "longitude": 342.177759,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1076.95
+    },
+    {
+      "tiepoint_id": 23,
+      "latitude": -23.351369,
+      "longitude": 342.048357,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1076.93
+    },
+    {
+      "tiepoint_id": 24,
+      "latitude": -23.350947,
+      "longitude": 341.921558,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1076.92
+    },
+    {
+      "tiepoint_id": 25,
+      "latitude": -23.215166,
+      "longitude": 342.565874,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1071.55
+    },
+    {
+      "tiepoint_id": 26,
+      "latitude": -23.215146,
+      "longitude": 342.436409,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1071.54
+    },
+    {
+      "tiepoint_id": 27,
+      "latitude": -23.215023,
+      "longitude": 342.307058,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1071.54
+    },
+    {
+      "tiepoint_id": 28,
+      "latitude": -23.214798,
+      "longitude": 342.177788,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1071.53
+    },
+    {
+      "tiepoint_id": 29,
+      "latitude": -23.21447,
+      "longitude": 342.048566,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1071.52
+    },
+    {
+      "tiepoint_id": 30,
+      "latitude": -23.21405,
+      "longitude": 341.921945,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1071.5
+    },
+    {
+      "tiepoint_id": 31,
+      "latitude": -23.078261,
+      "longitude": 342.565372,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1066.13
+    },
+    {
+      "tiepoint_id": 32,
+      "latitude": -23.078239,
+      "longitude": 342.436086,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1066.13
+    },
+    {
+      "tiepoint_id": 33,
+      "latitude": -23.078115,
+      "longitude": 342.306915,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1066.12
+    },
+    {
+      "tiepoint_id": 34,
+      "latitude": -23.07789,
+      "longitude": 342.177824,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1066.11
+    },
+    {
+      "tiepoint_id": 35,
+      "latitude": -23.077564,
+      "longitude": 342.048782,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1066.1
+    },
+    {
+      "tiepoint_id": 36,
+      "latitude": -23.077145,
+      "longitude": 341.922337,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1066.08
+    },
+    {
+      "tiepoint_id": 37,
+      "latitude": -22.941343,
+      "longitude": 342.56487,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 300.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1060.71
+    },
+    {
+      "tiepoint_id": 38,
+      "latitude": -22.941319,
+      "longitude": 342.435763,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 300.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1060.71
+    },
+    {
+      "tiepoint_id": 39,
+      "latitude": -22.941195,
+      "longitude": 342.306769,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 300.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1060.71
+    },
+    {
+      "tiepoint_id": 40,
+      "latitude": -22.94097,
+      "longitude": 342.177857,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 300.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1060.7
+    }
+  ]
+}

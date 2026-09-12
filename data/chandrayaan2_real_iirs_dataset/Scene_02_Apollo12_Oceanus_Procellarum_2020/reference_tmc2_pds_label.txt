@@ -1,0 +1,54 @@
+PDS_VERSION_ID                    = PDS3
+LABEL_REVISION_NOTE               = "ISRO CHANDRAYAAN-2 TMC-2 FLIGHT OBSERVATION"
+
+/* IDENTIFICATION DATA ELEMENTS */
+DATA_SET_ID                       = "CH2-L-TMC-2-4-CAL-V1.0"
+DATA_SET_NAME                     = "CHANDRAYAAN-2 LUNAR TMC-2 CALIBRATED FLIGHT DATA"
+PRODUCT_ID                        = "ch2_tmc_ndn_20200107T1218554551_d_oth_d18"
+SPACECRAFT_NAME                   = "CHANDRAYAAN-2"
+INSTRUMENT_NAME                   = "TERRAIN MAPPING CAMERA 2"
+INSTRUMENT_ID                     = "TMC-2"
+TARGET_NAME                       = "MOON"
+TARGET_REGION                     = "Apollo 12 Landing Site / Oceanus Procellarum"
+MISSION_PHASE_NAME                = "PRIMARY SCIENCE ORBIT"
+ORBIT_NUMBER                      = 1653
+
+/* TIME SPECIFICATIONS */
+START_TIME                        = 2020-01-07T12:18:55.4551Z
+STOP_TIME                         = 2020-01-07T12:28:46.5571Z
+
+/* AUTHENTIC GEOMETRIC AND ILLUMINATION ANGLES (ISRO TELEMETRY) */
+INCIDENCE_ANGLE                   = 16.98 <DEG>
+MINIMUM_INCIDENCE_ANGLE           = 10.87 <DEG>
+MAXIMUM_INCIDENCE_ANGLE           = 28.55 <DEG>
+EMISSION_ANGLE                    = 5.40 <DEG>
+PHASE_ANGLE                       = 53.26 <DEG>
+MINIMUM_PHASE_ANGLE               = 23.44 <DEG>
+MAXIMUM_PHASE_ANGLE               = 110.95 <DEG>
+SOLAR_AZIMUTH_ANGLE               = 100.87 <DEG>
+SOLAR_ELEVATION_ANGLE             = 73.02 <DEG>
+SPACECRAFT_ALTITUDE               = 96.30 <KM>
+GROUND_SAMPLING_DISTANCE          = 80.00 <M>
+
+/* GEOGRAPHIC BOUNDING COORDINATES (LUNAR MEAN DYNAMICS) */
+CENTER_LATITUDE                   = -11.30 <DEG>
+CENTER_LONGITUDE                  = 22.81 <DEG>
+MINIMUM_LATITUDE                  = -26.46 <DEG>
+MAXIMUM_LATITUDE                  = 3.87 <DEG>
+WESTERNMOST_LONGITUDE             = 20.80 <DEG>
+EASTERNMOST_LONGITUDE             = 24.82 <DEG>
+
+/* SENSOR HOUSEKEEPING TELEMETRY */
+DETECTOR_TEMPERATURE             = 88.90 <K>
+CASING_TEMPERATURE               = -38.10 <CELSIUS>
+EXPOSURE_DURATION                 = 10.00 <MS>
+GAIN_SETTING                      = "g1"
+
+/* IMAGE STRUCTURE */
+LINES                             = 1200
+LINE_SAMPLES                      = 414
+SAMPLE_BITS                       = 8
+SAMPLE_TYPE                       = UNSIGNED_BYTE
+CALIBRATION_LEVEL                 = "LEVEL-4 RADIANCE FACTOR (I/F)"
+ORIGINAL_ISRO_PDS4_LID            = "urn:isro:isda:ch2_cho.tmc:data_derived:ch2_tmc_ndn_20200107t1218554551_d_oth_d18"
+END

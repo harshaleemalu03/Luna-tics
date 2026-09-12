@@ -1,7 +1,10 @@
-﻿__pycache__/
+__pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
 .coverage
 runs/LUNA-*
 write_code.py
+data/raw_flight_cache/
+data/real_chandrayaan2_iirs_raw/
+data/real_chandrayaan2_tmc2_raw/

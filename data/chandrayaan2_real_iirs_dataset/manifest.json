@@ -1,0 +1,115 @@
+{
+  "dataset_name": "ISRO Chandrayaan-2 Real IIRS & TMC-2 Flight Observation Dataset",
+  "source_archive": "ISRO ISSDC PRADAN Flight Archive / PDS4 Standards",
+  "total_scenes": 4,
+  "scenes": [
+    {
+      "scene_id": "Scene_01_Apollo11_Mare_Tranquillitatis_2020",
+      "target_region": "Apollo 11 Landing Site / Mare Tranquillitatis",
+      "description": "Equatorial lunar basaltic plain with high titanium regolith, crater swarms, and low sun incidence.",
+      "solar_angles": {
+        "incidence_angle_deg": 17.13,
+        "phase_angle_deg": 53.41,
+        "solar_azimuth_deg": 101.12,
+        "solar_elevation_deg": 72.87
+      },
+      "spacecraft": {
+        "orbit": 1656,
+        "altitude_km": 96.98,
+        "gsd_m": 77.59,
+        "start_time": "2020-01-07T18:12:39.1841Z"
+      },
+      "files": {
+        "real_iirs_flight_strip": "real_iirs_flight_strip_full.png",
+        "iirs_tile": "iirs_flight_tile.png",
+        "pds_label_txt": "pds_label.txt",
+        "isro_pds4_xml": "isro_pds4_product_label.xml",
+        "geometry_csv": "geometry_coordinates_grid.csv",
+        "tmc2_reference": "reference_real_tmc2_optical.png",
+        "tmc2_pds_label": "reference_tmc2_pds_label.txt",
+        "ground_truth_tiepoints": "ground_truth_tiepoints.json"
+      }
+    },
+    {
+      "scene_id": "Scene_02_Apollo12_Oceanus_Procellarum_2020",
+      "target_region": "Apollo 12 Landing Site / Oceanus Procellarum",
+      "description": "Western lunar maria with prominent impact craters and ray systems, imaged during orbit 2083.",
+      "solar_angles": {
+        "incidence_angle_deg": 44.79,
+        "phase_angle_deg": 74.27,
+        "solar_azimuth_deg": 131.94,
+        "solar_elevation_deg": 45.21
+      },
+      "spacecraft": {
+        "orbit": 2029,
+        "altitude_km": 84.98,
+        "gsd_m": 67.98,
+        "start_time": "2020-02-07T07:16:44.5896Z"
+      },
+      "files": {
+        "real_iirs_flight_strip": "real_iirs_flight_strip_full.png",
+        "iirs_tile": "iirs_flight_tile.png",
+        "pds_label_txt": "pds_label.txt",
+        "isro_pds4_xml": "isro_pds4_product_label.xml",
+        "geometry_csv": "geometry_coordinates_grid.csv",
+        "tmc2_reference": "reference_real_tmc2_optical.png",
+        "tmc2_pds_label": "reference_tmc2_pds_label.txt",
+        "ground_truth_tiepoints": "ground_truth_tiepoints.json"
+      }
+    },
+    {
+      "scene_id": "Scene_03_Apollo14_Fra_Mauro_Highlands_2020",
+      "target_region": "Apollo 14 Landing Site / Fra Mauro Highlands",
+      "description": "Complex Imbrium ejecta blanket and highland terrain with steep topography and shadowing.",
+      "solar_angles": {
+        "incidence_angle_deg": 44.56,
+        "phase_angle_deg": 74.22,
+        "solar_azimuth_deg": 131.7,
+        "solar_elevation_deg": 45.44
+      },
+      "spacecraft": {
+        "orbit": 2026,
+        "altitude_km": 83.86,
+        "gsd_m": 67.09,
+        "start_time": "2020-02-07T01:22:58.7598Z"
+      },
+      "files": {
+        "real_iirs_flight_strip": "real_iirs_flight_strip_full.png",
+        "iirs_tile": "iirs_flight_tile.png",
+        "pds_label_txt": "pds_label.txt",
+        "isro_pds4_xml": "isro_pds4_product_label.xml",
+        "geometry_csv": "geometry_coordinates_grid.csv",
+        "tmc2_reference": "reference_real_tmc2_optical.png",
+        "tmc2_pds_label": "reference_tmc2_pds_label.txt",
+        "ground_truth_tiepoints": "ground_truth_tiepoints.json"
+      }
+    },
+    {
+      "scene_id": "Scene_04_Apollo11_Tranquillitatis_Repeat_Pass_2024",
+      "target_region": "Apollo 11 Tranquillitatis Repeat Flight Observation",
+      "description": "Multi-year repeat pass over Mare Tranquillitatis with alternate solar geometry for illumination robustness tests.",
+      "solar_angles": {
+        "incidence_angle_deg": 32.68,
+        "phase_angle_deg": 285.61,
+        "solar_azimuth_deg": 120.11,
+        "solar_elevation_deg": 57.32
+      },
+      "spacecraft": {
+        "orbit": 21160,
+        "altitude_km": 121.44,
+        "gsd_m": 97.15,
+        "start_time": "2024-05-23T16:00:30.1891Z"
+      },
+      "files": {
+        "real_iirs_flight_strip": "real_iirs_flight_strip_full.png",
+        "iirs_tile": "iirs_flight_tile.png",
+        "pds_label_txt": "pds_label.txt",
+        "isro_pds4_xml": "isro_pds4_product_label.xml",
+        "geometry_csv": "geometry_coordinates_grid.csv",
+        "tmc2_reference": "reference_real_tmc2_optical.png",
+        "tmc2_pds_label": "reference_tmc2_pds_label.txt",
+        "ground_truth_tiepoints": "ground_truth_tiepoints.json"
+      }
+    }
+  ]
+}

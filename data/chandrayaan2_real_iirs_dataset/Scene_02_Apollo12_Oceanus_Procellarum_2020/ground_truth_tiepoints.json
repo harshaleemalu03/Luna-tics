@@ -1,0 +1,366 @@
+{
+  "scene": "Scene_02_Apollo12_Oceanus_Procellarum_2020",
+  "total_tiepoints": 40,
+  "tiepoints": [
+    {
+      "tiepoint_id": 1,
+      "latitude": -23.300276,
+      "longitude": 339.367649,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1074.91
+    },
+    {
+      "tiepoint_id": 2,
+      "latitude": -23.300106,
+      "longitude": 339.235267,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1074.91
+    },
+    {
+      "tiepoint_id": 3,
+      "latitude": -23.299803,
+      "longitude": 339.102951,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1074.89
+    },
+    {
+      "tiepoint_id": 4,
+      "latitude": -23.299367,
+      "longitude": 338.970666,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1074.88
+    },
+    {
+      "tiepoint_id": 5,
+      "latitude": -23.298798,
+      "longitude": 338.838377,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1074.85
+    },
+    {
+      "tiepoint_id": 6,
+      "latitude": -23.298111,
+      "longitude": 338.708699,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 0.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1074.83
+    },
+    {
+      "tiepoint_id": 7,
+      "latitude": -23.163598,
+      "longitude": 339.367089,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1069.51
+    },
+    {
+      "tiepoint_id": 8,
+      "latitude": -23.163427,
+      "longitude": 339.234894,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1069.5
+    },
+    {
+      "tiepoint_id": 9,
+      "latitude": -23.163124,
+      "longitude": 339.102764,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1069.49
+    },
+    {
+      "tiepoint_id": 10,
+      "latitude": -23.162689,
+      "longitude": 338.970665,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1069.47
+    },
+    {
+      "tiepoint_id": 11,
+      "latitude": -23.162121,
+      "longitude": 338.838563,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1069.45
+    },
+    {
+      "tiepoint_id": 12,
+      "latitude": -23.161436,
+      "longitude": 338.709067,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 50.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1069.42
+    },
+    {
+      "tiepoint_id": 13,
+      "latitude": -23.026917,
+      "longitude": 339.366523,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1064.1
+    },
+    {
+      "tiepoint_id": 14,
+      "latitude": -23.026745,
+      "longitude": 339.234513,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1064.09
+    },
+    {
+      "tiepoint_id": 15,
+      "latitude": -23.026442,
+      "longitude": 339.102568,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1064.08
+    },
+    {
+      "tiepoint_id": 16,
+      "latitude": -23.026007,
+      "longitude": 338.970655,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1064.06
+    },
+    {
+      "tiepoint_id": 17,
+      "latitude": -23.025441,
+      "longitude": 338.838738,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1064.04
+    },
+    {
+      "tiepoint_id": 18,
+      "latitude": -23.024758,
+      "longitude": 338.709424,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 100.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1064.01
+    },
+    {
+      "tiepoint_id": 19,
+      "latitude": -22.890242,
+      "longitude": 339.365957,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1058.69
+    },
+    {
+      "tiepoint_id": 20,
+      "latitude": -22.890069,
+      "longitude": 339.234131,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1058.68
+    },
+    {
+      "tiepoint_id": 21,
+      "latitude": -22.889765,
+      "longitude": 339.10237,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1058.67
+    },
+    {
+      "tiepoint_id": 22,
+      "latitude": -22.889331,
+      "longitude": 338.970641,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1058.65
+    },
+    {
+      "tiepoint_id": 23,
+      "latitude": -22.888766,
+      "longitude": 338.838908,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1058.63
+    },
+    {
+      "tiepoint_id": 24,
+      "latitude": -22.888085,
+      "longitude": 338.709774,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 150.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1058.6
+    },
+    {
+      "tiepoint_id": 25,
+      "latitude": -22.75356,
+      "longitude": 339.365391,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1053.28
+    },
+    {
+      "tiepoint_id": 26,
+      "latitude": -22.753386,
+      "longitude": 339.233748,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1053.27
+    },
+    {
+      "tiepoint_id": 27,
+      "latitude": -22.753082,
+      "longitude": 339.10217,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1053.26
+    },
+    {
+      "tiepoint_id": 28,
+      "latitude": -22.752648,
+      "longitude": 338.970623,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1053.24
+    },
+    {
+      "tiepoint_id": 29,
+      "latitude": -22.752085,
+      "longitude": 338.839073,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1053.22
+    },
+    {
+      "tiepoint_id": 30,
+      "latitude": -22.751406,
+      "longitude": 338.710119,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 200.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1053.2
+    },
+    {
+      "tiepoint_id": 31,
+      "latitude": -22.616871,
+      "longitude": 339.364825,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1047.87
+    },
+    {
+      "tiepoint_id": 32,
+      "latitude": -22.616696,
+      "longitude": 339.233364,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1047.87
+    },
+    {
+      "tiepoint_id": 33,
+      "latitude": -22.616392,
+      "longitude": 339.101968,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1047.85
+    },
+    {
+      "tiepoint_id": 34,
+      "latitude": -22.615959,
+      "longitude": 338.970602,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1047.84
+    },
+    {
+      "tiepoint_id": 35,
+      "latitude": -22.615397,
+      "longitude": 338.839234,
+      "iirs_pixel_x": 200.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1047.81
+    },
+    {
+      "tiepoint_id": 36,
+      "latitude": -22.614721,
+      "longitude": 338.710458,
+      "iirs_pixel_x": 249.0,
+      "iirs_pixel_y": 250.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1047.79
+    },
+    {
+      "tiepoint_id": 37,
+      "latitude": -22.480176,
+      "longitude": 339.364266,
+      "iirs_pixel_x": 0.0,
+      "iirs_pixel_y": 300.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1042.46
+    },
+    {
+      "tiepoint_id": 38,
+      "latitude": -22.48,
+      "longitude": 339.232985,
+      "iirs_pixel_x": 50.0,
+      "iirs_pixel_y": 300.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1042.46
+    },
+    {
+      "tiepoint_id": 39,
+      "latitude": -22.479696,
+      "longitude": 339.101769,
+      "iirs_pixel_x": 100.0,
+      "iirs_pixel_y": 300.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1042.44
+    },
+    {
+      "tiepoint_id": 40,
+      "latitude": -22.479263,
+      "longitude": 338.970584,
+      "iirs_pixel_x": 150.0,
+      "iirs_pixel_y": 300.0,
+      "tmc2_pixel_x": 413.0,
+      "tmc2_pixel_y": 1042.43
+    }
+  ]
+}
