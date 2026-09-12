@@ -1,0 +1,270 @@
+{
+  "scene": "IIRS_Orbit_3210_Aristarchus_Plateau",
+  "total_tiepoints": 36,
+  "affine_matrix_ref_to_iirs": [
+    [
+      1.0187822600882628,
+      -0.04982676519152552,
+      -60.05260669356474
+    ],
+    [
+      0.04982676519152552,
+      1.0187822600882628,
+      -88.5639104716258
+    ]
+  ],
+  "tiepoints": [
+    {
+      "point_id": 1,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 38.5,
+      "src_iirs_y": 20.13
+    },
+    {
+      "point_id": 2,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 101.38,
+      "src_iirs_y": 23.2
+    },
+    {
+      "point_id": 3,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 164.25,
+      "src_iirs_y": 26.28
+    },
+    {
+      "point_id": 4,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 227.12,
+      "src_iirs_y": 29.35
+    },
+    {
+      "point_id": 5,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 290.0,
+      "src_iirs_y": 32.43
+    },
+    {
+      "point_id": 6,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 352.87,
+      "src_iirs_y": 35.5
+    },
+    {
+      "point_id": 7,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 35.43,
+      "src_iirs_y": 83.0
+    },
+    {
+      "point_id": 8,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 98.3,
+      "src_iirs_y": 86.08
+    },
+    {
+      "point_id": 9,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 161.18,
+      "src_iirs_y": 89.15
+    },
+    {
+      "point_id": 10,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 224.05,
+      "src_iirs_y": 92.23
+    },
+    {
+      "point_id": 11,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 286.92,
+      "src_iirs_y": 95.3
+    },
+    {
+      "point_id": 12,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 349.8,
+      "src_iirs_y": 98.38
+    },
+    {
+      "point_id": 13,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 32.35,
+      "src_iirs_y": 145.88
+    },
+    {
+      "point_id": 14,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 95.23,
+      "src_iirs_y": 148.95
+    },
+    {
+      "point_id": 15,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 158.1,
+      "src_iirs_y": 152.03
+    },
+    {
+      "point_id": 16,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 220.97,
+      "src_iirs_y": 155.1
+    },
+    {
+      "point_id": 17,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 283.85,
+      "src_iirs_y": 158.18
+    },
+    {
+      "point_id": 18,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 346.72,
+      "src_iirs_y": 161.25
+    },
+    {
+      "point_id": 19,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 29.28,
+      "src_iirs_y": 208.75
+    },
+    {
+      "point_id": 20,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 92.15,
+      "src_iirs_y": 211.82
+    },
+    {
+      "point_id": 21,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 155.03,
+      "src_iirs_y": 214.9
+    },
+    {
+      "point_id": 22,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 217.9,
+      "src_iirs_y": 217.97
+    },
+    {
+      "point_id": 23,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 280.77,
+      "src_iirs_y": 221.05
+    },
+    {
+      "point_id": 24,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 343.65,
+      "src_iirs_y": 224.12
+    },
+    {
+      "point_id": 25,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 26.2,
+      "src_iirs_y": 271.62
+    },
+    {
+      "point_id": 26,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 89.08,
+      "src_iirs_y": 274.7
+    },
+    {
+      "point_id": 27,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 151.95,
+      "src_iirs_y": 277.77
+    },
+    {
+      "point_id": 28,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 214.82,
+      "src_iirs_y": 280.85
+    },
+    {
+      "point_id": 29,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 277.7,
+      "src_iirs_y": 283.92
+    },
+    {
+      "point_id": 30,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 340.57,
+      "src_iirs_y": 287.0
+    },
+    {
+      "point_id": 31,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 23.13,
+      "src_iirs_y": 334.5
+    },
+    {
+      "point_id": 32,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 86.0,
+      "src_iirs_y": 337.57
+    },
+    {
+      "point_id": 33,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 148.88,
+      "src_iirs_y": 340.65
+    },
+    {
+      "point_id": 34,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 211.75,
+      "src_iirs_y": 343.72
+    },
+    {
+      "point_id": 35,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 274.62,
+      "src_iirs_y": 346.8
+    },
+    {
+      "point_id": 36,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 337.5,
+      "src_iirs_y": 349.87
+    }
+  ]
+}

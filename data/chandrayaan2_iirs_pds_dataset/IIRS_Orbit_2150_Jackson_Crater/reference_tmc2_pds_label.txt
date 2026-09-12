@@ -1,0 +1,27 @@
+PDS_VERSION_ID                    = PDS3
+RECORD_TYPE                       = FIXED_LENGTH
+RECORD_BYTES                      = 512
+FILE_RECORDS                      = 512
+
+DATA_SET_ID                       = "CH2-L-TMC2-4-REF-V1.0"
+PRODUCT_ID                        = "CH2_TMC2_REF_IIRS_Orbit_2150_Jackson_Crater"
+SPACECRAFT_NAME                   = "CHANDRAYAAN-2"
+INSTRUMENT_NAME                   = "TERRAIN MAPPING CAMERA-2"
+INSTRUMENT_ID                     = "TMC-2"
+TARGET_NAME                       = "MOON"
+TARGET_REGION                     = "Jackson Crater Rim (Farside Highlands)"
+
+INCIDENCE_ANGLE                   = 48.00 <DEG>
+EMISSION_ANGLE                    = 2.10 <DEG>
+PHASE_ANGLE                       = 45.90 <DEG>
+SOLAR_AZIMUTH_ANGLE               = 142.00 <DEG>
+SOLAR_ELEVATION_ANGLE             = 42.00 <DEG>
+GROUND_SAMPLING_DISTANCE          = 5.00 <M>
+
+BANDS                             = 1
+LINES                             = 512
+LINE_SAMPLES                      = 512
+SAMPLE_TYPE                       = UNSIGNED_INTEGER
+SAMPLE_BITS                       = 8
+SPECTRAL_BAND_RANGE               = "0.50 - 0.85 MICROMETER (PANCHROMATIC)"
+END

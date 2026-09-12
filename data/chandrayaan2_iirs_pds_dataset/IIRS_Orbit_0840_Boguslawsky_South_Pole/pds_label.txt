@@ -1,0 +1,72 @@
+PDS_VERSION_ID                    = PDS3
+RECORD_TYPE                       = FIXED_LENGTH
+RECORD_BYTES                      = 1600
+FILE_RECORDS                      = 6400
+
+/* IDENTIFICATION AND MISSION DATA */
+DATA_SET_ID                       = "CH2-L-IIRS-4-CAL-V1.0"
+DATA_SET_NAME                     = "CHANDRAYAAN-2 LUNAR IMAGING INFRARED SPECTROMETER CALIBRATED DATA"
+PRODUCT_ID                        = "CH2_IIRS_CAL_20240122T041010_O0840_D02"
+PRODUCT_VERSION_TYPE              = "ACTUAL"
+PRODUCT_TYPE                      = "CALIBRATED_IMAGE_CUBE"
+SPACECRAFT_NAME                   = "CHANDRAYAAN-2"
+INSTRUMENT_HOST_NAME              = "CHANDRAYAAN-2 ORBITER"
+INSTRUMENT_NAME                   = "IMAGING INFRARED SPECTROMETER"
+INSTRUMENT_ID                     = "IIRS"
+TARGET_NAME                       = "MOON"
+TARGET_TYPE                       = "SATELLITE"
+TARGET_REGION                     = "Boguslawsky Crater (Lunar South Pole)"
+
+/* TIME SPECIFICATIONS */
+START_TIME                        = 2024-01-22T04:10:10.000Z
+STOP_TIME                         = 2024-01-22T04:13:50.000Z
+SPACECRAFT_CLOCK_START_COUNT      = "0/142981240.124"
+SPACECRAFT_CLOCK_STOP_COUNT       = "0/142981465.892"
+
+/* GEOMETRIC AND ILLUMINATION ANGLES (CRITICAL PARAMETERS) */
+INCIDENCE_ANGLE                   = 68.70 <DEG>
+EMISSION_ANGLE                    = 3.20 <DEG>
+PHASE_ANGLE                       = 70.50 <DEG>
+SOLAR_AZIMUTH_ANGLE               = 52.00 <DEG>
+SOLAR_ELEVATION_ANGLE             = 21.30 <DEG>
+SUB_SOLAR_LATITUDE                = 1.15 <DEG>
+SUB_SOLAR_LONGITUDE               = 64.82 <DEG>
+SUB_SPACECRAFT_LATITUDE           = -72.90 <DEG>
+SUB_SPACECRAFT_LONGITUDE          = 43.20 <DEG>
+SPACECRAFT_ALTITUDE               = 101.10 <KM>
+GROUND_SAMPLING_DISTANCE          = 80.00 <M>
+
+/* GEOGRAPHIC BOUNDING COORDINATES */
+CENTER_LATITUDE                   = -72.90 <DEG>
+CENTER_LONGITUDE                  = 43.20 <DEG>
+MINIMUM_LATITUDE                  = -73.60 <DEG>
+MAXIMUM_LATITUDE                  = -72.20 <DEG>
+WESTERNMOST_LONGITUDE             = 42.10 <DEG>
+EASTERNMOST_LONGITUDE             = 44.30 <DEG>
+
+/* SPECTRAL CUBE PARAMETERS */
+BANDS                             = 16
+LINES                             = 400
+LINE_SAMPLES                      = 400
+SAMPLE_TYPE                       = IEEE_REAL
+SAMPLE_BITS                       = 32
+MINIMUM_WAVELENGTH                = 0.800 <MICROMETER>
+MAXIMUM_WAVELENGTH                = 5.000 <MICROMETER>
+SPECTRAL_SAMPLING_INTERVAL        = 0.280 <MICROMETER>
+RADIOMETRIC_UNIT                  = "RADIANCE_FACTOR (I/F)"
+
+/* ASSOCIATED REFERENCE SENSOR */
+REFERENCE_SENSOR_ID               = "TMC-2"
+REFERENCE_GROUND_RESOLUTION       = 5.00 <M>
+CO_REGISTRATION_STATUS            = "UNREGISTERED_RAW"
+
+OBJECT                            = IMAGE_CUBE
+  INTERCHANGE_FORMAT              = "BAND_SEQUENTIAL (BSQ)"
+  LINES                           = 400
+  LINE_SAMPLES                    = 400
+  BANDS                           = 16
+  SAMPLE_TYPE                     = IEEE_REAL
+  SAMPLE_BITS                     = 32
+  DESCRIPTION                     = "Calibrated lunar reflectance factor cube across NIR, SWIR, and MWIR bands."
+END_OBJECT                        = IMAGE_CUBE
+END

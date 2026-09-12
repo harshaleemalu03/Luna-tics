@@ -1,0 +1,291 @@
+{
+  "scene": "IIRS_Orbit_1422_Mare_Serenitatis",
+  "total_tiepoints": 39,
+  "affine_matrix_ref_to_iirs": [
+    [
+      0.9585031336147017,
+      0.05358864479343725,
+      -44.09549527248358
+    ],
+    [
+      -0.05358864479343725,
+      0.9585031336147017,
+      -41.65810913824371
+    ]
+  ],
+  "tiepoints": [
+    {
+      "point_id": 1,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 58.85,
+      "src_iirs_y": 50.38
+    },
+    {
+      "point_id": 2,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 118.0,
+      "src_iirs_y": 47.08
+    },
+    {
+      "point_id": 3,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 177.16,
+      "src_iirs_y": 43.77
+    },
+    {
+      "point_id": 4,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 236.31,
+      "src_iirs_y": 40.46
+    },
+    {
+      "point_id": 5,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 295.46,
+      "src_iirs_y": 37.16
+    },
+    {
+      "point_id": 6,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 101.71,
+      "src_iirs_x": 354.62,
+      "src_iirs_y": 33.85
+    },
+    {
+      "point_id": 7,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 62.16,
+      "src_iirs_y": 109.54
+    },
+    {
+      "point_id": 8,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 121.31,
+      "src_iirs_y": 106.23
+    },
+    {
+      "point_id": 9,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 180.46,
+      "src_iirs_y": 102.92
+    },
+    {
+      "point_id": 10,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 239.62,
+      "src_iirs_y": 99.62
+    },
+    {
+      "point_id": 11,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 298.77,
+      "src_iirs_y": 96.31
+    },
+    {
+      "point_id": 12,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 163.43,
+      "src_iirs_x": 357.92,
+      "src_iirs_y": 93.0
+    },
+    {
+      "point_id": 13,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 65.46,
+      "src_iirs_y": 168.69
+    },
+    {
+      "point_id": 14,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 124.62,
+      "src_iirs_y": 165.38
+    },
+    {
+      "point_id": 15,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 183.77,
+      "src_iirs_y": 162.08
+    },
+    {
+      "point_id": 16,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 242.92,
+      "src_iirs_y": 158.77
+    },
+    {
+      "point_id": 17,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 302.08,
+      "src_iirs_y": 155.46
+    },
+    {
+      "point_id": 18,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 225.14,
+      "src_iirs_x": 361.23,
+      "src_iirs_y": 152.16
+    },
+    {
+      "point_id": 19,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 68.77,
+      "src_iirs_y": 227.84
+    },
+    {
+      "point_id": 20,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 127.92,
+      "src_iirs_y": 224.54
+    },
+    {
+      "point_id": 21,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 187.08,
+      "src_iirs_y": 221.23
+    },
+    {
+      "point_id": 22,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 246.23,
+      "src_iirs_y": 217.92
+    },
+    {
+      "point_id": 23,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 305.38,
+      "src_iirs_y": 214.62
+    },
+    {
+      "point_id": 24,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 286.86,
+      "src_iirs_x": 364.54,
+      "src_iirs_y": 211.31
+    },
+    {
+      "point_id": 25,
+      "ref_tmc2_x": 40.0,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 12.92,
+      "src_iirs_y": 290.31
+    },
+    {
+      "point_id": 26,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 72.08,
+      "src_iirs_y": 287.0
+    },
+    {
+      "point_id": 27,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 131.23,
+      "src_iirs_y": 283.69
+    },
+    {
+      "point_id": 28,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 190.38,
+      "src_iirs_y": 280.38
+    },
+    {
+      "point_id": 29,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 249.54,
+      "src_iirs_y": 277.08
+    },
+    {
+      "point_id": 30,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 308.69,
+      "src_iirs_y": 273.77
+    },
+    {
+      "point_id": 31,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 348.57,
+      "src_iirs_x": 367.84,
+      "src_iirs_y": 270.46
+    },
+    {
+      "point_id": 32,
+      "ref_tmc2_x": 40.0,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 16.23,
+      "src_iirs_y": 349.46
+    },
+    {
+      "point_id": 33,
+      "ref_tmc2_x": 101.71,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 75.38,
+      "src_iirs_y": 346.15
+    },
+    {
+      "point_id": 34,
+      "ref_tmc2_x": 163.43,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 134.54,
+      "src_iirs_y": 342.84
+    },
+    {
+      "point_id": 35,
+      "ref_tmc2_x": 225.14,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 193.69,
+      "src_iirs_y": 339.54
+    },
+    {
+      "point_id": 36,
+      "ref_tmc2_x": 286.86,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 252.84,
+      "src_iirs_y": 336.23
+    },
+    {
+      "point_id": 37,
+      "ref_tmc2_x": 348.57,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 312.0,
+      "src_iirs_y": 332.92
+    },
+    {
+      "point_id": 38,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 410.29,
+      "src_iirs_x": 371.15,
+      "src_iirs_y": 329.62
+    },
+    {
+      "point_id": 39,
+      "ref_tmc2_x": 410.29,
+      "ref_tmc2_y": 472.0,
+      "src_iirs_x": 374.46,
+      "src_iirs_y": 388.77
+    }
+  ]
+}
