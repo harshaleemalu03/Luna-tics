@@ -1,0 +1,54 @@
+{
+  "dataset_name": "ISRO Chandrayaan-2 IIRS Real Lunar Testing Benchmark",
+  "instrument_host": "Chandrayaan-2",
+  "sensor": "IIRS (Imaging Infrared Spectrometer)",
+  "mission_archive": "ISRO ISSDC / PRADAN Conforming",
+  "scenes_count": 3,
+  "scenes": [
+    {
+      "id": "scene_01_mare_serenitatis",
+      "title": "ISRO Chandrayaan-2 IIRS Orbit 1422 \u2014 Mare Serenitatis",
+      "region": "Mare Serenitatis (28.0\u00b0 N, 17.5\u00b0 E)",
+      "directory": "scene_01_mare_serenitatis",
+      "iirs_cube": "ch2_iirs_calibrated_cube.tif",
+      "iirs_label": "ch2_iirs_calibrated_cube.xml",
+      "iirs_proxy_band": "ch2_iirs_band04_continuum.tif",
+      "tmc_reference": "ch2_tmc2_reference_mosaic.tif",
+      "tmc_label": "ch2_tmc2_reference_mosaic.xml",
+      "ground_truth_json": "ground_truth_tiepoints.json",
+      "ground_truth_csv": "ground_truth_tiepoints.csv",
+      "tiepoints_count": 39,
+      "spectral_regime": "NIR/SWIR (0.8 - 2.5 \u00b5m)"
+    },
+    {
+      "id": "scene_02_jackson_crater",
+      "title": "ISRO Chandrayaan-2 IIRS Orbit 2150 \u2014 Jackson Crater Rim",
+      "region": "Jackson Crater (22.4\u00b0 N, 163.1\u00b0 W)",
+      "directory": "scene_02_jackson_crater",
+      "iirs_cube": "ch2_iirs_calibrated_cube.tif",
+      "iirs_label": "ch2_iirs_calibrated_cube.xml",
+      "iirs_proxy_band": "ch2_iirs_band04_continuum.tif",
+      "tmc_reference": "ch2_tmc2_reference_mosaic.tif",
+      "tmc_label": "ch2_tmc2_reference_mosaic.xml",
+      "ground_truth_json": "ground_truth_tiepoints.json",
+      "ground_truth_csv": "ground_truth_tiepoints.csv",
+      "tiepoints_count": 35,
+      "spectral_regime": "SWIR Pyroxene Absorption (1.5 - 2.4 \u00b5m)"
+    },
+    {
+      "id": "scene_03_boguslawsky_south_pole",
+      "title": "ISRO Chandrayaan-2 IIRS Orbit 0840 \u2014 South Pole Boguslawsky",
+      "region": "Boguslawsky Crater (72.9\u00b0 S, 43.2\u00b0 E)",
+      "directory": "scene_03_boguslawsky_south_pole",
+      "iirs_cube": "ch2_iirs_calibrated_cube.tif",
+      "iirs_label": "ch2_iirs_calibrated_cube.xml",
+      "iirs_proxy_band": "ch2_iirs_band04_continuum.tif",
+      "tmc_reference": "ch2_tmc2_reference_mosaic.tif",
+      "tmc_label": "ch2_tmc2_reference_mosaic.xml",
+      "ground_truth_json": "ground_truth_tiepoints.json",
+      "ground_truth_csv": "ground_truth_tiepoints.csv",
+      "tiepoints_count": 44,
+      "spectral_regime": "MWIR OH/Water Absorption & Thermal (2.8 - 4.5 \u00b5m)"
+    }
+  ]
+}

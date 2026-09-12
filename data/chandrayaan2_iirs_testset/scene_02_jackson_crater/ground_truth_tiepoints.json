@@ -1,0 +1,405 @@
+{
+  "scene_id": "scene_02_jackson_crater",
+  "affine_transform_matrix_ref_to_iirs": [
+    [
+      1.0343027711830042,
+      -0.10870960179835962,
+      -56.95185136246901
+    ],
+    [
+      0.10870960179835962,
+      1.0343027711830042,
+      -74.61116748322914
+    ]
+  ],
+  "rotation_deg": -6.0,
+  "scale_ratio": 1.04,
+  "total_ground_truth_tiepoints": 35,
+  "tiepoints": [
+    {
+      "id": 1,
+      "ref_pixel_xy": [
+        410.29,
+        40.0
+      ],
+      "src_iirs_pixel_xy": [
+        363.06,
+        11.36
+      ]
+    },
+    {
+      "id": 2,
+      "ref_pixel_xy": [
+        101.71,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        37.19,
+        41.65
+      ]
+    },
+    {
+      "id": 3,
+      "ref_pixel_xy": [
+        163.43,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        101.03,
+        48.36
+      ]
+    },
+    {
+      "id": 4,
+      "ref_pixel_xy": [
+        225.14,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        164.86,
+        55.07
+      ]
+    },
+    {
+      "id": 5,
+      "ref_pixel_xy": [
+        286.86,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        228.69,
+        61.78
+      ]
+    },
+    {
+      "id": 6,
+      "ref_pixel_xy": [
+        348.57,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        292.52,
+        68.49
+      ]
+    },
+    {
+      "id": 7,
+      "ref_pixel_xy": [
+        410.29,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        356.35,
+        75.19
+      ]
+    },
+    {
+      "id": 8,
+      "ref_pixel_xy": [
+        101.71,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        30.49,
+        105.48
+      ]
+    },
+    {
+      "id": 9,
+      "ref_pixel_xy": [
+        163.43,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        94.32,
+        112.19
+      ]
+    },
+    {
+      "id": 10,
+      "ref_pixel_xy": [
+        225.14,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        158.15,
+        118.9
+      ]
+    },
+    {
+      "id": 11,
+      "ref_pixel_xy": [
+        286.86,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        221.98,
+        125.61
+      ]
+    },
+    {
+      "id": 12,
+      "ref_pixel_xy": [
+        348.57,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        285.81,
+        132.32
+      ]
+    },
+    {
+      "id": 13,
+      "ref_pixel_xy": [
+        410.29,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        349.64,
+        139.03
+      ]
+    },
+    {
+      "id": 14,
+      "ref_pixel_xy": [
+        101.71,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        23.78,
+        169.31
+      ]
+    },
+    {
+      "id": 15,
+      "ref_pixel_xy": [
+        163.43,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        87.61,
+        176.02
+      ]
+    },
+    {
+      "id": 16,
+      "ref_pixel_xy": [
+        225.14,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        151.44,
+        182.73
+      ]
+    },
+    {
+      "id": 17,
+      "ref_pixel_xy": [
+        286.86,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        215.27,
+        189.44
+      ]
+    },
+    {
+      "id": 18,
+      "ref_pixel_xy": [
+        348.57,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        279.1,
+        196.15
+      ]
+    },
+    {
+      "id": 19,
+      "ref_pixel_xy": [
+        410.29,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        342.93,
+        202.86
+      ]
+    },
+    {
+      "id": 20,
+      "ref_pixel_xy": [
+        101.71,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        17.07,
+        233.14
+      ]
+    },
+    {
+      "id": 21,
+      "ref_pixel_xy": [
+        163.43,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        80.9,
+        239.85
+      ]
+    },
+    {
+      "id": 22,
+      "ref_pixel_xy": [
+        225.14,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        144.73,
+        246.56
+      ]
+    },
+    {
+      "id": 23,
+      "ref_pixel_xy": [
+        286.86,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        208.56,
+        253.27
+      ]
+    },
+    {
+      "id": 24,
+      "ref_pixel_xy": [
+        348.57,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        272.39,
+        259.98
+      ]
+    },
+    {
+      "id": 25,
+      "ref_pixel_xy": [
+        410.29,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        336.22,
+        266.69
+      ]
+    },
+    {
+      "id": 26,
+      "ref_pixel_xy": [
+        101.71,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        10.36,
+        296.97
+      ]
+    },
+    {
+      "id": 27,
+      "ref_pixel_xy": [
+        163.43,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        74.19,
+        303.68
+      ]
+    },
+    {
+      "id": 28,
+      "ref_pixel_xy": [
+        225.14,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        138.02,
+        310.39
+      ]
+    },
+    {
+      "id": 29,
+      "ref_pixel_xy": [
+        286.86,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        201.85,
+        317.1
+      ]
+    },
+    {
+      "id": 30,
+      "ref_pixel_xy": [
+        348.57,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        265.68,
+        323.81
+      ]
+    },
+    {
+      "id": 31,
+      "ref_pixel_xy": [
+        410.29,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        329.51,
+        330.52
+      ]
+    },
+    {
+      "id": 32,
+      "ref_pixel_xy": [
+        163.43,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        67.48,
+        367.51
+      ]
+    },
+    {
+      "id": 33,
+      "ref_pixel_xy": [
+        225.14,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        131.31,
+        374.22
+      ]
+    },
+    {
+      "id": 34,
+      "ref_pixel_xy": [
+        286.86,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        195.14,
+        380.93
+      ]
+    },
+    {
+      "id": 35,
+      "ref_pixel_xy": [
+        348.57,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        258.97,
+        387.64
+      ]
+    }
+  ]
+}

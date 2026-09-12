@@ -1,0 +1,504 @@
+{
+  "scene_id": "scene_03_boguslawsky_south_pole",
+  "affine_transform_matrix_ref_to_iirs": [
+    [
+      0.9296749115602018,
+      0.138940846461834,
+      -51.565634053641155
+    ],
+    [
+      -0.138940846461834,
+      0.9296749115602018,
+      22.572079334817857
+    ]
+  ],
+  "rotation_deg": 8.5,
+  "scale_ratio": 0.94,
+  "total_ground_truth_tiepoints": 44,
+  "tiepoints": [
+    {
+      "id": 1,
+      "ref_pixel_xy": [
+        101.71,
+        40.0
+      ],
+      "src_iirs_pixel_xy": [
+        48.55,
+        45.63
+      ]
+    },
+    {
+      "id": 2,
+      "ref_pixel_xy": [
+        163.43,
+        40.0
+      ],
+      "src_iirs_pixel_xy": [
+        105.93,
+        37.05
+      ]
+    },
+    {
+      "id": 3,
+      "ref_pixel_xy": [
+        225.14,
+        40.0
+      ],
+      "src_iirs_pixel_xy": [
+        163.3,
+        28.48
+      ]
+    },
+    {
+      "id": 4,
+      "ref_pixel_xy": [
+        286.86,
+        40.0
+      ],
+      "src_iirs_pixel_xy": [
+        220.68,
+        19.9
+      ]
+    },
+    {
+      "id": 5,
+      "ref_pixel_xy": [
+        348.57,
+        40.0
+      ],
+      "src_iirs_pixel_xy": [
+        278.05,
+        11.33
+      ]
+    },
+    {
+      "id": 6,
+      "ref_pixel_xy": [
+        101.71,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        57.13,
+        103.0
+      ]
+    },
+    {
+      "id": 7,
+      "ref_pixel_xy": [
+        163.43,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        114.5,
+        94.43
+      ]
+    },
+    {
+      "id": 8,
+      "ref_pixel_xy": [
+        225.14,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        171.88,
+        85.85
+      ]
+    },
+    {
+      "id": 9,
+      "ref_pixel_xy": [
+        286.86,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        229.25,
+        77.28
+      ]
+    },
+    {
+      "id": 10,
+      "ref_pixel_xy": [
+        348.57,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        286.62,
+        68.7
+      ]
+    },
+    {
+      "id": 11,
+      "ref_pixel_xy": [
+        410.29,
+        101.71
+      ],
+      "src_iirs_pixel_xy": [
+        344.0,
+        60.13
+      ]
+    },
+    {
+      "id": 12,
+      "ref_pixel_xy": [
+        101.71,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        65.7,
+        160.38
+      ]
+    },
+    {
+      "id": 13,
+      "ref_pixel_xy": [
+        163.43,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        123.08,
+        151.8
+      ]
+    },
+    {
+      "id": 14,
+      "ref_pixel_xy": [
+        225.14,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        180.45,
+        143.23
+      ]
+    },
+    {
+      "id": 15,
+      "ref_pixel_xy": [
+        286.86,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        237.83,
+        134.65
+      ]
+    },
+    {
+      "id": 16,
+      "ref_pixel_xy": [
+        348.57,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        295.2,
+        126.08
+      ]
+    },
+    {
+      "id": 17,
+      "ref_pixel_xy": [
+        410.29,
+        163.43
+      ],
+      "src_iirs_pixel_xy": [
+        352.57,
+        117.5
+      ]
+    },
+    {
+      "id": 18,
+      "ref_pixel_xy": [
+        40.0,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        16.9,
+        226.32
+      ]
+    },
+    {
+      "id": 19,
+      "ref_pixel_xy": [
+        101.71,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        74.28,
+        217.75
+      ]
+    },
+    {
+      "id": 20,
+      "ref_pixel_xy": [
+        163.43,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        131.65,
+        209.17
+      ]
+    },
+    {
+      "id": 21,
+      "ref_pixel_xy": [
+        225.14,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        189.03,
+        200.6
+      ]
+    },
+    {
+      "id": 22,
+      "ref_pixel_xy": [
+        286.86,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        246.4,
+        192.03
+      ]
+    },
+    {
+      "id": 23,
+      "ref_pixel_xy": [
+        348.57,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        303.77,
+        183.45
+      ]
+    },
+    {
+      "id": 24,
+      "ref_pixel_xy": [
+        410.29,
+        225.14
+      ],
+      "src_iirs_pixel_xy": [
+        361.15,
+        174.88
+      ]
+    },
+    {
+      "id": 25,
+      "ref_pixel_xy": [
+        40.0,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        25.48,
+        283.7
+      ]
+    },
+    {
+      "id": 26,
+      "ref_pixel_xy": [
+        101.71,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        82.85,
+        275.12
+      ]
+    },
+    {
+      "id": 27,
+      "ref_pixel_xy": [
+        163.43,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        140.23,
+        266.55
+      ]
+    },
+    {
+      "id": 28,
+      "ref_pixel_xy": [
+        225.14,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        197.6,
+        257.97
+      ]
+    },
+    {
+      "id": 29,
+      "ref_pixel_xy": [
+        286.86,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        254.97,
+        249.4
+      ]
+    },
+    {
+      "id": 30,
+      "ref_pixel_xy": [
+        348.57,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        312.35,
+        240.83
+      ]
+    },
+    {
+      "id": 31,
+      "ref_pixel_xy": [
+        410.29,
+        286.86
+      ],
+      "src_iirs_pixel_xy": [
+        369.72,
+        232.25
+      ]
+    },
+    {
+      "id": 32,
+      "ref_pixel_xy": [
+        40.0,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        34.05,
+        341.07
+      ]
+    },
+    {
+      "id": 33,
+      "ref_pixel_xy": [
+        101.71,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        91.43,
+        332.5
+      ]
+    },
+    {
+      "id": 34,
+      "ref_pixel_xy": [
+        163.43,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        148.8,
+        323.92
+      ]
+    },
+    {
+      "id": 35,
+      "ref_pixel_xy": [
+        225.14,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        206.17,
+        315.35
+      ]
+    },
+    {
+      "id": 36,
+      "ref_pixel_xy": [
+        286.86,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        263.55,
+        306.77
+      ]
+    },
+    {
+      "id": 37,
+      "ref_pixel_xy": [
+        348.57,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        320.92,
+        298.2
+      ]
+    },
+    {
+      "id": 38,
+      "ref_pixel_xy": [
+        410.29,
+        348.57
+      ],
+      "src_iirs_pixel_xy": [
+        378.3,
+        289.62
+      ]
+    },
+    {
+      "id": 39,
+      "ref_pixel_xy": [
+        101.71,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        100.0,
+        389.87
+      ]
+    },
+    {
+      "id": 40,
+      "ref_pixel_xy": [
+        163.43,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        157.38,
+        381.3
+      ]
+    },
+    {
+      "id": 41,
+      "ref_pixel_xy": [
+        225.14,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        214.75,
+        372.72
+      ]
+    },
+    {
+      "id": 42,
+      "ref_pixel_xy": [
+        286.86,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        272.12,
+        364.15
+      ]
+    },
+    {
+      "id": 43,
+      "ref_pixel_xy": [
+        348.57,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        329.5,
+        355.57
+      ]
+    },
+    {
+      "id": 44,
+      "ref_pixel_xy": [
+        410.29,
+        410.29
+      ],
+      "src_iirs_pixel_xy": [
+        386.87,
+        347.0
+      ]
+    }
+  ]
+}

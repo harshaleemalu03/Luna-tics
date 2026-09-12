@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification_Area>
+    <logical_identifier>urn:isro:ch2:tmc-2:prod_tmc-2_01</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Chandrayaan-2 TMC-2 Calibrated Lunar Science Product</title>
+    <information_model_version>1.14.0.0</information_model_version>
+    <product_class>Product_Observational</product_class>
+  </Identification_Area>
+  <Observation_Area>
+    <Time_Coordinates>
+      <start_date_time>2024-03-15T08:30:00.000Z</start_date_time>
+      <stop_date_time>2024-03-15T08:30:00.000Z</stop_date_time>
+    </Time_Coordinates>
+    <Target_Identification>
+      <name>Moon</name>
+      <type>Satellite</type>
+    </Target_Identification>
+    <Discipline_Area>
+      <Geometry>
+        <incidence_angle unit="deg">40.00</incidence_angle>
+        <emission_angle unit="deg">2.00</emission_angle>
+        <phase_angle unit="deg">38.00</phase_angle>
+        <sun_azimuth_angle unit="deg">145.00</sun_azimuth_angle>
+        <sun_elevation_angle unit="deg">50.00</sun_elevation_angle>
+        <ground_sampling_distance unit="m">5.00</ground_sampling_distance>
+        <westernmost_longitude>18.5</westernmost_longitude>
+        <minimum_latitude>-5.2</minimum_latitude>
+        <easternmost_longitude>19.8</easternmost_longitude>
+        <maximum_latitude>-4.0</maximum_latitude>
+      </Geometry>
+    </Discipline_Area>
+  </Observation_Area>
+  <File_Area_Observational>
+    <File>
+      <file_name>ch2_tmc2_reference_mosaic.raw</file_name>
+    </File>
+    <Array_3D_Spectrum>
+      <axes>2</axes>
+      <axis_index_order>Last_Index_Fastest</axis_index_order>
+      <Element_Array>
+        <data_type>IEEE754MSBSingle</data_type>
+      </Element_Array>
+      <Axis_Array>
+        <axis_name>Band</axis_name>
+        <elements>1</elements>
+        <sequence_number>1</sequence_number>
+      </Axis_Array>
+      <Axis_Array>
+        <axis_name>Line</axis_name>
+        <elements>512</elements>
+        <sequence_number>2</sequence_number>
+      </Axis_Array>
+      <Axis_Array>
+        <axis_name>Sample</axis_name>
+        <elements>512</elements>
+        <sequence_number>3</sequence_number>
+      </Axis_Array>
+    </Array_3D_Spectrum>
+  </File_Area_Observational>
+</Product_Observational>

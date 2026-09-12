@@ -309,3 +309,17 @@ with tab2:
                     mime="text/csv",
                     use_container_width=True
                 )
+
+    # IIRS Multi-Modal Benchmark Package Download
+    iirs_zip = os.path.join(os.path.dirname(__file__), "..", "data", "chandrayaan2_iirs_testset.zip")
+    if os.path.exists(iirs_zip):
+        st.markdown("---")
+        with open(iirs_zip, "rb") as f:
+            st.download_button(
+                "📦 Download Complete Chandrayaan-2 IIRS Testing Dataset (ZIP with Ground Truth & Labels)",
+                f.read(),
+                file_name="chandrayaan2_iirs_testset.zip",
+                mime="application/zip",
+                use_container_width=True,
+                type="primary"
+            )
