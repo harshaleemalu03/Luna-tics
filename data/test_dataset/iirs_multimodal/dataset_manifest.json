@@ -1,0 +1,48 @@
+{
+  "dataset_name": "Chandrayaan-2 IIRS Multi-Modal Test Bench",
+  "total_pairs": 3,
+  "pairs": [
+    {
+      "id": "pair_01_iirs_nir_cross_modal",
+      "name": "IIRS NIR (0.9-1.2 \u00b5m) vs TMC-2 Optical (0.65 \u00b5m)",
+      "description": "Baseline cross-spectral matching between near-infrared continuum and visible optical.",
+      "dir": "pair_01_iirs_nir_cross_modal",
+      "source_file": "source_iirs_cube.tif",
+      "source_label": "source_iirs_label.xml",
+      "reference_file": "reference_tmc2.tif",
+      "reference_label": "reference_tmc2_label.xml",
+      "ground_truth_file": "ground_truth_tiepoints.json",
+      "gsd_ratio": 16.0,
+      "delta_sun_azimuth_deg": 15.0,
+      "delta_incidence_deg": 3.0
+    },
+    {
+      "id": "pair_02_iirs_swir_mineral_absorption",
+      "name": "IIRS SWIR (2.0 \u00b5m Pyroxene Absorption) vs TMC-2 Optical",
+      "description": "Mineral absorption band causing local contrast inversions against visible reflectance.",
+      "dir": "pair_02_iirs_swir_mineral_absorption",
+      "source_file": "source_iirs_cube.tif",
+      "source_label": "source_iirs_label.xml",
+      "reference_file": "reference_tmc2.tif",
+      "reference_label": "reference_tmc2_label.xml",
+      "ground_truth_file": "ground_truth_tiepoints.json",
+      "gsd_ratio": 16.0,
+      "delta_sun_azimuth_deg": 45.0,
+      "delta_incidence_deg": 4.0
+    },
+    {
+      "id": "pair_03_iirs_mwir_thermal_sun_angle",
+      "name": "IIRS MWIR (3.2 \u00b5m OH/Thermal) vs TMC-2 with Severe Sun Shift",
+      "description": "Cross-spectral thermal regime with 65\u00b0 solar azimuth divergence and shadow inversion.",
+      "dir": "pair_03_iirs_mwir_thermal_sun_angle",
+      "source_file": "source_iirs_cube.tif",
+      "source_label": "source_iirs_label.xml",
+      "reference_file": "reference_tmc2.tif",
+      "reference_label": "reference_tmc2_label.xml",
+      "ground_truth_file": "ground_truth_tiepoints.json",
+      "gsd_ratio": 16.0,
+      "delta_sun_azimuth_deg": 65.0,
+      "delta_incidence_deg": 27.0
+    }
+  ]
+}

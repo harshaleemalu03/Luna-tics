@@ -51,7 +51,8 @@ with st.sidebar:
         "Active Mission Imagery",
         [
             "1. Real Chandrayaan-2 TMC-2 Lunar Surface (ISRO Orbit Capture)",
-            "2. Real LROC NAC Lunar Surface (NASA Epigenes A Crater, PIA12918)"
+            "2. Real LROC NAC Lunar Surface (NASA Epigenes A Crater, PIA12918)",
+            "3. Chandrayaan-2 IIRS Hyperspectral Infrared ↔ TMC-2 Optical (Multi-Modal Test Pair)"
         ],
         index=0
     )

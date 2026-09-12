@@ -58,7 +58,19 @@ def load_dataset(dataset_key: str) -> Tuple[np.ndarray, np.ndarray, LunarMetadat
     """Load selected real lunar dataset pair and standardized metadata."""
     _ensure_real_moon_datasets()
 
-    if "Chandrayaan-2" in dataset_key:
+    if "IIRS" in dataset_key:
+        src_tif = "data/test_dataset/iirs_multimodal/pair_01_iirs_nir_cross_modal/source_iirs_cube.tif"
+        src_xml = "data/test_dataset/iirs_multimodal/pair_01_iirs_nir_cross_modal/source_iirs_label.xml"
+        ref_tif = "data/test_dataset/iirs_multimodal/pair_01_iirs_nir_cross_modal/reference_tmc2.tif"
+        ref_xml = "data/test_dataset/iirs_multimodal/pair_01_iirs_nir_cross_modal/reference_tmc2_label.xml"
+
+        img_src = tifffile.imread(src_tif)
+        img_ref = tifffile.imread(ref_tif)
+        meta_src = PDS4Parser.parse_label(src_xml)
+        meta_ref = PDS4Parser.parse_label(ref_xml)
+        return img_src, img_ref, meta_src, meta_ref
+
+    elif "TMC-2" in dataset_key or "Chandrayaan-2" in dataset_key:
         src_tif = "data/raw/chandrayaan2_real/ch2_source_strip.tif"
         ref_tif = "data/reference/ch2_reference_mosaic.tif"
 

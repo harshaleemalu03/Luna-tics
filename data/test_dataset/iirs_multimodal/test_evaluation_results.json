@@ -1,0 +1,38 @@
+[
+  {
+    "pair_id": "pair_01_iirs_nir_cross_modal",
+    "name": "IIRS NIR (0.9-1.2 \u00b5m) vs TMC-2 Optical (0.65 \u00b5m)",
+    "candidate_matches": 602,
+    "inliers": 573,
+    "inlier_ratio_pct": 95.18,
+    "gt_rmse_px": 0.111,
+    "mma@1": 100.0,
+    "mma@3": 100.0,
+    "mma@5": 100.0,
+    "runtime_ms": 725.6
+  },
+  {
+    "pair_id": "pair_02_iirs_swir_mineral_absorption",
+    "name": "IIRS SWIR (2.0 \u00b5m Pyroxene Absorption) vs TMC-2 Optical",
+    "candidate_matches": 572,
+    "inliers": 546,
+    "inlier_ratio_pct": 95.45,
+    "gt_rmse_px": 0.072,
+    "mma@1": 100.0,
+    "mma@3": 100.0,
+    "mma@5": 100.0,
+    "runtime_ms": 567.7
+  },
+  {
+    "pair_id": "pair_03_iirs_mwir_thermal_sun_angle",
+    "name": "IIRS MWIR (3.2 \u00b5m OH/Thermal) vs TMC-2 with Severe Sun Shift",
+    "candidate_matches": 595,
+    "inliers": 572,
+    "inlier_ratio_pct": 96.13,
+    "gt_rmse_px": 0.082,
+    "mma@1": 100.0,
+    "mma@3": 100.0,
+    "mma@5": 100.0,
+    "runtime_ms": 681.5
+  }
+]
